@@ -1,0 +1,18 @@
+.profile--client__header__container{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    &__profile{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10rem;
+    }
+    &__text{
+
+    }
+
+}

@@ -1,0 +1,31 @@
+.signup__container{
+    max-width: 110rem;
+    margin: 0 auto;
+    position: relative;
+    &__images{
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        height: 20%;
+    }
+    &__circle{
+        content: url("../../abstracts/images/Circle_01.png");
+        bottom: 0%;
+        left: 0%;
+    }
+    &__square{
+        content: url("../../abstracts/images/Square_01.png");
+        top: 0%;
+        right: 0%;
+    }
+    &__sphere{
+        content: url("../../abstracts/images/Sphere_3Axis.png");
+        top: 0%;
+        left:0%;
+    }
+    &__triangle{
+        content: url("../../abstracts/images/Triangle_01.png");
+        bottom: 0%;
+        right: 0%;
+    }
+}

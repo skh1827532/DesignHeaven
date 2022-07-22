@@ -1,0 +1,17 @@
+.card-list{
+    width: 85%;
+    margin: 0 auto 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    &--winner{
+        grid-template-columns: 1fr 1fr !important;    
+    }
+    &--hoverEffect{
+        &:hover .card:not(:hover){
+            -webkit-filter: brightness(.3) ;
+            filter: brightness(.3) ;
+        }
+    }
+    
+}

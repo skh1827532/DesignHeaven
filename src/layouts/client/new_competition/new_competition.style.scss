@@ -1,0 +1,60 @@
+.competition__form {
+    width: 85%;
+    margin: 0 auto;
+    &__group{
+        margin-bottom: 2rem;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 5rem;
+        
+    }
+
+    &__circle {
+        content: url("../../../abstracts/images/Sphere_3Axis.png");
+        width: 100%;
+        margin: auto auto;
+    }
+    &__input{//by default browser do not give font-family to input elements by inheritance
+        font-family: inherit;
+        color: inherit;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        border-radius: .2rem;
+        border: .2rem solid $color-secondary;
+        width: 100%;
+        display: block;
+        transition: all .3s ease-in;
+        &--brief{
+            height: 15rem;
+        }
+        &:focus{
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black,.1);
+            border-bottom: .3rem solid $color-secondary;
+        }
+        &:focus:invalid{
+            border-bottom: .3rem solid $color-primary;
+        }
+    }
+    
+    
+    &__label{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: .7rem;
+        display: block;
+        transition: all .3s ease-in;
+    }
+    &__inspirations{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 4rem;
+        &__ins{
+            border: .2rem solid $color_secondary;
+            width: 100%;
+        }
+    }
+    
+}

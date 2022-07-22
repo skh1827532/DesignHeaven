@@ -1,0 +1,20 @@
+.heading--primary{
+    color: $color-white;
+    backface-visibility: hidden;
+    margin-bottom: 2rem;
+    &--main{
+        display: block;
+        font-size: 5rem;
+        font-weight: 700;
+        letter-spacing: 0rem;
+        animation: moveInLeft 1s 1 ease-out;
+    }
+    &--sub{
+        margin-top: -1rem;
+        display: block;
+        font-size: 5rem;
+        font-weight: 700;
+        letter-spacing: 0rem;
+        animation: moveInRight 1s 1 ease-out;
+    }
+}

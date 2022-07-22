@@ -1,0 +1,14 @@
+.competition__body{
+    width: 85%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    transition: all .1s ease-in;
+    &__condition{
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+}

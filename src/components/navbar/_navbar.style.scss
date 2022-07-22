@@ -1,0 +1,83 @@
+
+.nav {
+    @include clear-fix;
+    max-width: 180rem;
+    margin: 0rem auto;
+    padding: 2rem 3rem;
+    font-size: $default-font-size;
+
+    &__items {
+        display: flex;
+
+        &--left {
+            float: left;
+        }
+
+        &--right {
+            float: right;
+        }
+    }
+
+    &--item {
+        &--is_active{
+            &--black{
+                color: $color-secondary !important;
+            }
+            &--white{
+                color: $color-secondary !important;
+            }
+        }
+        &--black{
+            color: $color-white;
+            &:hover {
+            
+                &::after{
+                    border-bottom: .1rem solid $color-secondary;
+                    width: 85%;
+                }
+            }
+        }
+        &--white{
+            color: $color-black;
+            &:hover {
+            
+                &::after{
+                    border-bottom: .1rem solid $color-black;
+                    width: 85%;
+                }
+            }
+        }
+        
+        padding: 1.5rem 3rem;
+        z-index: 1;
+        
+        &::after{
+            position: absolute;
+            top: 0;
+            left: 10%;
+            width: 0%;
+            height: 100%;
+            content: "";
+            transition: all .2s ease-in;    
+        }
+        
+    }
+
+    &--logo {
+        
+        color: $color-primary;
+        border-radius: 50rem;
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        margin-left: 2rem;
+        
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    &--img{
+        content: url("../../abstracts/images/logo_1.svg");
+    }
+
+
+}

@@ -1,0 +1,46 @@
+.landing__footer {
+  position: relative;
+  padding: 2rem 0;
+  background-color: $color-gray-light-2;
+  font-size: $default-font-size;
+}
+
+.bold_font {
+  font-weight: 700;
+}
+
+.social_media {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat ';
+  margin-bottom: 20px;
+
+}
+.social_media_div {
+  display: flex;
+  align-items: center;
+  
+}
+
+.social_media_img {
+  margin-left: 0.5rem /* 8px */;
+  margin-right: 0.5rem /* 8px */;
+  width: 18px;
+  height: 18px;
+
+}
+
+.gray-filter{
+  // filter: 
+  filter: opacity(0.4) drop-shadow(0 0 0 #232926);
+}
+
+hr.line1 {
+  fill: #232926;
+  height: 2px;
+
+  margin-left: 12%;
+  margin-right: 12%;
+}

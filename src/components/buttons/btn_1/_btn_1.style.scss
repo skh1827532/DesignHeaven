@@ -1,0 +1,40 @@
+
+.btn_1{
+    border-radius: 10rem;
+    font-size: $default-font-size;
+    padding: 1.5rem 4rem;
+    &:hover{
+        box-shadow: 0 1rem 2rem  rgba($color-black,.2);
+        transform: translateY(-3px);
+        &::after{
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0; 
+         }
+    }
+    &:active{
+        box-shadow: 0 .5rem 1rem  rgba($color-black,.2);
+        transform: translateY(-1px);
+    }
+ 
+    &--green{
+        background-color: $color-secondary;
+        color: $color-black;
+        font-weight: 500;
+        &::after{
+            background-color: $color-secondary;
+        }
+    }
+    &::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        border-radius: 10rem;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        z-index: -1;
+        transition: all .4s;
+    }
+    
+}

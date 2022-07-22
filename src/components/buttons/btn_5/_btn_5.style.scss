@@ -1,0 +1,19 @@
+.btn_5{
+    border-radius: .5rem;
+    font-size:1.6rem;
+    font-weight: 600; 
+    padding: .7rem 1.5rem;
+    border-radius: .8rem;
+    &--black{
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+    &:hover{
+        box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+        transform: translateY(-.3rem);    
+    }
+    &:active{
+        box-shadow: 0 .5rem 1rem rgba($color-black,0.2);
+        transform: translateY(-.1rem);
+    }
+}

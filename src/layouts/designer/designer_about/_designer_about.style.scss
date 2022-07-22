@@ -1,0 +1,19 @@
+.about{
+    width: 81%;
+    margin: 0 auto;
+    &__item:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    &__key{
+        display: inline;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    &__value{
+        padding-left: 1rem;
+        display: inline;
+        font-size: 1.3rem;
+        font-weight: 500;
+
+    }
+}

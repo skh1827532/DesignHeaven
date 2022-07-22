@@ -1,0 +1,43 @@
+.card--long {
+    width: 85%;
+    background-color: $color-gray-light-2;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 3rem;
+    transition: all .1s ease-in;
+    &:hover{
+        box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+        transform: translate(-.2rem);    
+    }
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &__image {
+        width: 100%;
+        // box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+    }
+
+    &__details {
+        color: $color-black;
+
+        &__client {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+
+        &__brief {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+    }
+
+    &__status {
+        
+    }
+}

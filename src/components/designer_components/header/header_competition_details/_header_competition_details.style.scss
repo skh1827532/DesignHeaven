@@ -1,0 +1,10 @@
+.competition__header{
+    background-color: $color-gray-light-2;
+    padding: 1.5rem 0 1rem 0;
+    &__pos{
+        position: relative;
+        width: 85%; 
+        margin: 0 auto;   
+    }
+    
+}

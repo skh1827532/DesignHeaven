@@ -1,0 +1,20 @@
+.btn{
+    &:link,
+    &:visited{
+        text-decoration: none; 
+        display: inline-block;
+        transition: all .4s;
+        position: relative; 
+    }
+    &__animated{
+        &--1{
+            animation: moveInBottom .5s ease-out .75s;
+            animation-fill-mode: backwards;    
+        }
+        &--2{
+            animation: fade_in .2s ease-in .5s ;
+            animation-fill-mode: backwards;
+        }
+        
+    }
+}

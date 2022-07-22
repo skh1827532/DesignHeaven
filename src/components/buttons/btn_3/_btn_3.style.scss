@@ -1,0 +1,26 @@
+.btn_3{
+    border-radius: 1rem;
+    text-align: center;
+    font-size:1.4rem;
+    font-weight: 600; 
+    padding: 1rem 1.5rem;
+    &--green{
+        background-color: $color-secondary;
+        color: $color-black;
+    }
+    &--clickable{
+        &:hover{
+            box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+            transform: translateY(-.2rem);
+            
+        }
+        &:active{
+            box-shadow: 0 .5rem 1rem rgba($color-black,0.2);
+            transform: translateY(-.1rem);
+        }
+    }
+    &--full-width{
+        width: 100%;
+    }
+    
+}

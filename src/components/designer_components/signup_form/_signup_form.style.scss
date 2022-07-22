@@ -1,0 +1,36 @@
+.signup__form {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+    &__group{
+        margin-bottom: 2rem;
+    }
+    &__input{//by default browser do not give font-family to input elements by inheritance
+        font-family: inherit;
+        color: inherit;
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+        border-radius: .3rem;
+        border: .2rem solid $color-secondary;
+        width: 100%;
+        display: block;
+        transition: all .3s ease-in;
+        &:focus{
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black,.1);
+            border-bottom: .3rem solid $color-secondary;
+        }
+        &:focus:invalid{
+            border-bottom: .3rem solid $color-primary;
+        }
+    }
+    
+    
+    &__label{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: .7rem;
+        display: block;
+        transition: all .3s ease-in;
+    }
+}

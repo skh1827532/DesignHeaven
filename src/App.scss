@@ -1,0 +1,59 @@
+@import "./abstracts/variables";
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+
+@import "./base/utilities";
+@import "./base/animations";
+
+@import "./components/navbar/navbar.style";
+@import "./components/textbox/textbox.style";
+@import "./components/heading-primary/heading-primary.style";
+@import "./components/buttons/btn_1/btn_1.style";
+@import "./components/buttons/btn_2/btn_2.style";
+@import "./components/buttons/btn.style";
+@import "./components/buttons/btn_3/btn_3.style";
+@import "./components/heading-secondary/heading-secondary.style";
+@import "./components/card-list/card-list.style";
+@import "./components/long_card-list/long_card-list.style";
+@import "./components/card/card.style";
+@import "./components/text-slider/text-slider.style";
+@import "./components/text-slider/slider-contents/slider-content.style";
+@import "./components/TextFields/textfield.style";
+@import "./components/long_card/long_card.style";
+@import "./components/buttons/btn_4/btn_4.style";
+@import "./components/long_card-list/long_card-list.style";
+@import "./components//Pagination/pagination.style";
+@import "./components/designer_components/header/header_designer_profile/header_designer_profile.style";
+@import "./components/designs_container/designs_container.style";
+@import "./components/client_components/header/header_client_profile/header_client_profile.style";
+@import "./components/designer_components/header/header_competition_details/header_competition_details.style";
+@import "./components/buttons/btn_5/btn_5.style";
+@import "./components/signin_form/signin_form.style";
+@import "./components/designer_components/signup_form/signup_form.style";
+@import "./components/client_components/signup_form/signup_form.style";
+
+
+@import "./layouts/designer/designer_about/designer_about.style";
+@import "./layouts/designer/body_competition_details/body_competition_details.style";
+@import "./layouts/Accounts/Social_login_bttn.style";
+@import "./layouts/landing_page/testimonials/testimonial.style";
+@import "./layouts/landing_page/header/header.style";
+@import "./layouts/landing_page/footer/footer.style";
+@import "./layouts/landing_page/past_designs/past_designs.style";
+@import "./layouts/profile_header/profile_header.style";
+@import "./layouts/designer/dashboard/dashboard_designer.style";
+@import "./layouts/grid.style";
+@import "./layouts/profile/profile.style";
+@import "./layouts/designer/competition_details/competition_details.style";
+@import "./layouts/client/new_competition/new_competition.style.scss";
+@import "./layouts//designer/submit_design/submit_design.style";
+@import "./layouts/auth/auth_layout.style";
+@import "./layouts/signup_layout/signup_layout.style";
+@import "./layouts/client/winner/winner.style";
+
+@import "./pages/landing/landing.style";
+@import "./pages/main.style";
+@import "./pages/auth/auth.style";
+@import "./layouts/Accounts/login.style";
+@import "./layouts/Accounts/signup.style";
+
